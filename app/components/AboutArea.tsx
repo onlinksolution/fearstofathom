@@ -41,7 +41,7 @@ const AboutArea = () => {
           <p className='inline-flex gap-5'><RiArrowRightSLine />Play and Explore: Dive into our episodes and discover the blend of fear, suspense, and survival.</p>
           <p className='inline-flex gap-5'><RiArrowRightSLine />Join the Discussion: Connect with fellow players, share your thoughts, and speculate on upcoming episodes.</p>
 
-          <p className='text-lg mt-5 lg:text-3xl'><span className='text-white'>Send Your Story: </span><Link href=''>FearstoFathomStories@gmail.com</Link></p>
+          <p className='text-lg mt-5 lg:text-3xl'><span className='text-white'>Send Your Story: </span><Link href='mailto:FearstoFathomStories@gmail.com'>FearstoFathomStories@gmail.com</Link></p>
         </div>
       </div>
     </section>
