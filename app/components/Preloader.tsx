@@ -23,7 +23,7 @@ const Preloader = () => {
   }, []);
   return (
     <>
-      {loading ? <div className="w-full h-screen fixed z-[100] bg-nav flex flex-col gap-5 justify-center items-center">
+      {loading ? <div className="w-full h-screen fixed z-[100] bg-nav flex flex-col gap-5 justify-center items-center transition-all duration-300">
         <Image src="/f2f-logo.png" width={150} height={100} alt="logo" className="animate-pulse" />
         <span className="font-load text-xl animate-pulse text-white">LOADING...</span>
       </div> : ''}
