@@ -15,6 +15,9 @@ export default {
         com: '#1C1C1C',
         button: '#F2255E'
       },
+      fontFamily: {
+        load: ['Bebas Neue', 'serif']
+      }
     },
   },
   plugins: [],
