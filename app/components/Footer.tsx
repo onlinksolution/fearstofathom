@@ -1,4 +1,5 @@
 import { RiArrowUpLine, RiDiscordFill, RiGiftFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXLine } from '@remixicon/react'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,7 +17,9 @@ const Footer = () => {
             </div>
 
             <span className='text-center text-sm lg:order-2'>&copy; 2024 All rights reserved to <Link href="https://www.rayllstudios.com/" className='hover:text-button transition-all duration-300'>rayll studios</Link>.</span>
-            <span className='text-center text-sm inline-flex gap-1 items-center justify-center lg:order-1 lg:justify-start'>Developed by <Link href="https://fazildev.online/" className='hover:text-button transition-all duration-300'>Fazil Dev</Link></span>
+            <span className='text-center text-sm inline-flex gap-1 items-center justify-center lg:order-1 lg:justify-start'>Developed by <Link href="https://fazildev.online/" className='hover:text-button transition-all duration-300'>
+              <Image src="/fazildev.png" width={70} height={30} alt='logo' />
+            </Link></span>
           </div>
         </div>
       </footer>
